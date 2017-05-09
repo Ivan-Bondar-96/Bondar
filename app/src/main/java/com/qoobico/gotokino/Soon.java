@@ -36,6 +36,7 @@ public class Soon {
     }
 
 
+
     public Soon(String soon_film, String photo_soon_film, String url_soon_film) {
 
         this.soon_film = soon_film;

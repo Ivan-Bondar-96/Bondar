@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_dark_material_dark"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/foto_cinema"
+            android:scaleType="fitXY"
+            android:layout_width="150sp"
+            android:layout_height="150dp"/>
+        <TextView
+            android:id="@+id/name_cinema"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/foto_cinema"
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:text="Titel"
+            android:textColor="@color/Yellow"
+            android:textSize="25sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/foto_cinema"
+            android:layout_below="@id/name_cinema"
+            android:layout_marginLeft="15dp"
+            android:text="Adress"
+            android:textColor="@color/Yellow"
+            android:textSize="15sp"
+            android:id="@id/cinema_adres" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

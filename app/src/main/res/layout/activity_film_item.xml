@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.qoobico.gotokino.ItemFragment.FilmItemActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:background="@color/colorPrimary">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:id="@+id/back"
+            android:onClick="ClickBack"/>
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="250dp"
+        android:src="@drawable/emma"
+        android:scaleType="fitCenter"
+        android:id="@+id/imageView1"/>
+
+    <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Silver"
+            android:weightSum="1">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Описание"
+        android:onClick="ClickOpus"
+        android:background="@drawable/buttonselect"
+        android:id="@+id/opus"
+        android:layout_weight="0.5" />
+
+    <Button
+        android:id="@+id/seansu"
+        android:layout_width="wrap_content"
+        android:layout_weight="0.5"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/buttonselect"
+        android:elevation="0dp"
+        android:onClick="ClickSeans"
+        android:text="Сеансы" />
+</android.support.v7.widget.LinearLayoutCompat>
+
+<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Text"
+            android:textSize="20dp"
+            android:scrollbarAlwaysDrawHorizontalTrack="true"
+            android:textColor="@color/Yellow"
+            android:id="@+id/descr"/>
+    </ScrollView>
+
+</LinearLayout>

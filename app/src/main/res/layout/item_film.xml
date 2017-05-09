@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cv"
+    android:layout_width="match_parent"
+    android:layout_height="250dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:padding="16dp"
+        android:background="@color/primary_dark_material_dark">
+
+        <ImageView
+            android:id="@+id/foto_film"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="50sp"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/emma" />
+
+        <TextView
+            android:id="@+id/titel_film"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Titel"
+            android:textColor="@color/Yellow"
+            android:textSize="25dp" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

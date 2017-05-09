@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GoToKino</string>
+    <string name="search_title">Search</string>
+
+    <string name="menu_item_notification">Напоминания</string>
+
+    <string name="view_navigation_open">Open</string>
+    <string name="view_navigation_close">Close</string>
+
+    <string name="tab_item_films">Films</string>
+    <string name="tab_item_cinema">Cinema</string>
+    <string name="tab_item_calendar">Soon</string>
+
+
+
+</resources>
